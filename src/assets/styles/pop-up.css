@@ -1,0 +1,150 @@
+.modal-write-us {
+  width: 960px;
+  box-shadow: 0 10px 20px rgba(4, 6, 6, 0.6);
+  padding: 97px 100px 80px;
+  position: fixed;
+  top: 25px;
+  left: 50%;
+  margin-left: -480px;
+  z-index: 610;
+  color: #000000;
+  display: none;
+}
+
+.modal-close {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  font-size: 0;
+  background-color: #f0c52e;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+  position: absolute;
+  top: 27px;
+  right: 27px;
+  outline: none;
+  opacity: 0.5;
+}
+
+.modal-close::before {
+  content: "\2716";
+  font-size: 40px;
+  top: 0;
+  position: absolute;
+  left: 11px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.modal-close:hover {
+  opacity: 1;
+}
+
+.modal-close:active {
+  opacity: 0.3;
+}
+
+.modal-write-us form {
+  font-size: 0;
+}
+
+.modal-write-us label {
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Gilroyextrabold", sans-serif;
+}
+
+label.dib {
+  margin-bottom: 37px;
+}
+
+.modal-write-us input {
+  width: 360px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "OpenSans-Light";
+}
+
+.modal-write-us input,
+.modal-write-us textarea {
+  margin-top: 13px;
+  background-color: #eaeaea;
+  opacity: 0.5;
+  border: none;
+
+  &:hover {
+    opacity: 1;
+  }
+  &:focus {
+    background-color: white;
+    border: 3px solid #cbcbcb;
+    opacity: 1;
+    outline: none;
+  }
+  
+}
+
+.modal-write-us input[type="text"] {
+  margin-right: 40px;
+}
+
+.modal-write-us textarea {
+  width: 760px;
+  min-height: 156px;
+  padding: 0;
+  padding-top: 17px;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "OpenSans-Light";
+}
+
+.modal-write-us .popup {
+  width: 200px;
+  margin-top: 50px;
+}
+
+.modal-write-us-show {
+  display: block;
+}
+
+/*OVERLAY*/
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 600;
+  display: none;
+}
+
+.modal-overlay-show {
+  display: block;
+}
+/*map*/
+.modal-map {
+  width: 963px;
+  height: 559px;
+  box-shadow: 0 10px 20px rgba(4, 6, 6, 0.2);
+  position: fixed;
+  top: 25px;
+  left: 50%;
+  margin-left: -480px;
+  z-index: 620;
+  background: url("../images/map-big-fon.png") no-repeat center;
+  display: none;
+}
+
+.modal-map-show {
+  display: block;
+}
+
+
+
+

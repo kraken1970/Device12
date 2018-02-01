@@ -1,0 +1,38 @@
+/* https://css-tricks.com/snippets/css/using-font-face/#article-header-id-0 */
+@font-face {
+	font-family: "Gilroylight";
+	src: url('../fonts/gilroy/gilroylight.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/gilroy/gilroylight.woff') format('woff'), /* Pretty Modern Browsers */
+       url("../fonts/gilroy/Gilroylight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Gilroyextrabold";
+	src: url('../fonts/gilroy/gilroyextrabold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/gilroy/gilroyextrabold.woff') format('woff'), /* Pretty Modern Browsers */ 
+       url("../fonts/gilroy/Gilroyextrabold.ttf") format("truetype");/* Safari, Android, iOS */
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "OpenSans-Light";
+	src: url('../fonts/open_sans/opensanslight.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open_sans/opensanslight.woff') format('woff'), /* Pretty Modern Browsers */ 
+       url("../fonts/open_sans/OpenSans-Light.ttf") format("truetype");/* Safari, Android, iOS */
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url('../fonts/open_sans/opensans.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open_sans/opensans.woff') format('woff'), /* Pretty Modern Browsers */ 
+       url("../fonts/open_sans/OpenSans-Regular.ttf") format("truetype");/* Safari, Android, iOS */
+	font-style: normal;
+	font-weight: normal;
+}
+
+
