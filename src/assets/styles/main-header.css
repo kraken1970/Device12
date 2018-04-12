@@ -29,14 +29,21 @@ body {
   position: relative;
 }
 
+html, body {
+  width: calc(100% + calc(100vw - 100%));
+  overflow-x: hidden;
+}
+
 .main-body {
   color: #000000;
   background-color: #ffffff;
 }
 
 .container {
-  width: 1160px;
+  max-width: 1160px;
   padding: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn {

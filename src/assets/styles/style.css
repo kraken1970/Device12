@@ -825,14 +825,22 @@ body {
   position: relative;
 }
 
+html, body {
+  width: -webkit-calc(100% + -webkit-calc(100vw - 100%));
+  width: calc(100% + calc(100vw - 100%));
+  overflow-x: hidden;
+}
+
 .main-body {
   color: #000000;
   background-color: #ffffff;
 }
 
 .container {
-  width: 1160px;
+  max-width: 1160px;
   padding: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn {
@@ -2322,8 +2330,8 @@ label.radio-bt input {
   width: 71%;
   font-size: 14px;
   padding-top: 70px;
-  padding-left: 72px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 10px;
   padding-bottom: 73px;
 }
 
