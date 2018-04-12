@@ -1166,7 +1166,7 @@ html, body {
 .slide-content .namber-page {
     position: absolute;
     top: -18px;
-    right: 0;
+    right: 60px;
     z-index: -1;
 
     color: #ffffff;
